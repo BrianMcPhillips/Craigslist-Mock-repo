@@ -34,6 +34,21 @@ main {
     align-items: center;
 }
 
+li {
+    background: pink;
+    margin: 10px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 2.s ease-in-out;
+}
+
+li:hover {
+    background:crimson;
+    transform: scale(2) rotate3d(1,1, 45deg);
+}
+
 .container {
     height: 100%;
     width: 100%;
@@ -88,4 +103,5 @@ section {
     "services for-sale jobs"
     "discussion for-sale jobs"
     "discussion for-sale gig"
+
 }
